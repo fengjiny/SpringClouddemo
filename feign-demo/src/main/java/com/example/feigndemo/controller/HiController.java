@@ -15,13 +15,13 @@ public class HiController {
     @Autowired
     private SchedualService schedualService;
 
-    @RequestMapping(value = "/hi",method = RequestMethod.POST)
+    @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
         log.info("调用feign接口");
         return schedualService.sayHiFromClientOne(name);
     }
 
-    @RequestMapping(value = "/hello", method = RequestMethod.POST)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHello(@RequestParam(value = "name") String name) {
         log.info("调用hello接口");
         return schedualService.sayHello(name);

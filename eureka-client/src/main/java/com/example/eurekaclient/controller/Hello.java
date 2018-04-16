@@ -12,8 +12,13 @@ public class Hello {
     @Value("${server.port}")
     private String port;
 
-    @RequestMapping(value = "/hello",method = RequestMethod.POST)
+    @RequestMapping(value = "/hello")
     public String hello(@RequestParam(value = "name") String name) {
         return "hello "+name+",i am from port:" +port;
+    }
+
+    @RequestMapping("/hi")
+    public String home(@RequestParam String name) {
+        return "hi "+name+",i am from port:" +port;
     }
 }

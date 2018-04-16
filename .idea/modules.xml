@@ -3,10 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringClouddemo.iml" filepath="$PROJECT_DIR$/SpringClouddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-demo/service-feign.iml" filepath="$PROJECT_DIR$/feign-demo/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-demo/service-feign (1).iml" filepath="$PROJECT_DIR$/feign-demo/service-feign (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon/service-feign (1).iml" filepath="$PROJECT_DIR$/ribbon/service-feign (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/service-feign (2).iml" filepath="$PROJECT_DIR$/ribbon/service-feign (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>
 </project>
