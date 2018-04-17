@@ -10,23 +10,30 @@
         <module name="config-server" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="eureka-server-2" />
         <module name="service-feign" />
         <module name="service-feign (1)" />
         <module name="service-feign (2)" />
         <module name="service-zuul" />
-        <module name="SpringClouddemo" />
+        <module name="SpringCloud-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="docker-comose" target="1.8" />
+      <module name="dockercompose" target="1.5" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-2" target="1.8" />
+      <module name="eureka-server3" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-feign (1)" target="1.8" />
       <module name="service-feign (2)" target="1.8" />
       <module name="service-zuul" target="1.8" />
+      <module name="SpringCloud-demo" target="1.5" />
       <module name="SpringClouddemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
